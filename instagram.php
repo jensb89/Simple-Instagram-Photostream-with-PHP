@@ -3,7 +3,7 @@ $url="https://api.instagram.com/v1/users/self/feed?access_token=TOKEN";
 
 // Get cURL resource
 $curl = curl_init();
- // Options
+// Options
 curl_setopt_array($curl, array(
   CURLOPT_RETURNTRANSFER => 1,
   CURLOPT_URL => $url
