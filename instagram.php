@@ -1,5 +1,5 @@
 <?php
-$url="https://api.instagram.com/v1/users/self/feed?access_token=1390226.4db6b9f.dc8fb13aa67542dca2537d40fabc17db";
+$url="https://api.instagram.com/v1/users/self/feed?access_token=TOKEN";
 
 // Get cURL resource
     $curl = curl_init();
